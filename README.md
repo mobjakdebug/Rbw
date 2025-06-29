@@ -1,4 +1,4 @@
-# RBW Discord Bot (CURRENTLY BROKEN AND NOT RECOMMENDED FOR PRODUCTION USE!)
+# RBW Discord Bot (i finally fixed it!)
 
 A comprehensive Discord bot for managing ranked bedwars matches with auto-queuing functionality, team selection, and extensive stat tracking.
 
@@ -17,32 +17,7 @@ A comprehensive Discord bot for managing ranked bedwars matches with auto-queuin
 2. Configure the bot settings
 
 ### Configuration Setup
-
-1. Rename `dev.env` to `.env` and fill in the following:
-```
-env
-TOKEN="your_discord_bot_token"
-DB_HOST=your_database_host
-DB_USER=your_database_user
-DB_PASSWORD=your_database_password
-DB_NAME=your_database_name
-DB_PORT=your_database_port
-```
-
-2. Edit `config.json` with your server details:
-```
-{
-    "guildId": "yourGuildID",
-    "logsChannel": "yourChannelID", 
-    "GAME_LOGS": "yourChannelID",
-    "waitingChannel": "yourChannelID",
-    "ssChannel": "yourChannelID",
-    "scoreChannelID": "yourChannelID",
-    "alertID": "yourChannelID",
-   "devs": ["378606584802050049", "1185618985518116925"]
-}
-```
-
+just look at the configs and do it by ur self :) (im lazy)
 **Important**: Do not remove or modify the "devs" field as it credits the original developers.
 
 ### Dependencies Installation
